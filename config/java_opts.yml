@@ -16,4 +16,4 @@
 # JAVA_OPTS configuration
 ---
 from_environment: true
-java_opts: '-XX:+PrintGCDetails'
+java_opts: '-XX:+PrintGCDetails -XX:NativeMemoryTracking=detail'
